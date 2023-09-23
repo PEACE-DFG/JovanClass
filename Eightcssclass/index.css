@@ -1,0 +1,127 @@
+/* body{
+    background-color: red;
+} */
+.all{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+.root{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+.two{
+    color: grey;
+    font-size: 25px;
+}
+.one{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url('https://w0.peakpx.com/wallpaper/209/950/HD-wallpaper-city-buildings-sunset-gradient.jpg');
+    /* background-image: url('https://w0.peakpx.com/wallpaper/209/950/HD-wallpaper-city-buildings-sunset-gradient.jpg'); */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whole{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+.low{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.high{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.dove{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bird{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+
+}
+.cent{
+    text-align: center;
+    color: grey;
+}
+.jug{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.with{
+    width: 500px;
+    height: 400px;
+    /* background-color: red; */
+    margin: 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 15px grey;
+}
+.man{
+    font-size: 60px;
+    color: red;
+    padding: 60px 0px 30px 0px;
+}
+.tone{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+    color: grey;
+}
+.bell{
+    font-size: 20px;
+    color: grey;
+}
+@media(max-width:1011px){
+    .jug{
+        /* display: block; */
+        flex-wrap: wrap;
+        /* margin:20px 220px; */
+    }
+    .center{
+        /* text-align: center; */
+        /* margin: auto; */
+    }
+}
+@media(max-width:947px){
+    .jug{
+        margin: 20px 200px;
+    }
+}
+@media(max-width:909px){
+    .bell{
+        font-size:15px;
+    }
+}

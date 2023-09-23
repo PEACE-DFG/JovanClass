@@ -1,0 +1,50 @@
+.text1{
+    width: 1300px;
+    border: 1px solid ;
+    background-color: blueviolet;
+    height: 300px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    /* overflow-x: scroll; */
+}
+img{
+    /* float: right; */
+    float: left;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    float: left;
+    width: 16%;
+    text-align: center;
+    margin: 0px 10px;
+    
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: gold;
+}
+.four{
+    background-color: blue;
+}
+.five{
+    background-color: green;
+}
+.align{
+    height: 500px;
+    background-color: red;
+}
+.cent{
+    text-align: center;
+}
+.cent h1{
+    align-items: end;
+
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 80%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: none;
+}
+th{ 
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: center;
+    /* background-color: lightblue; */
+} 
+td{ border: 1px solid black; 
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
+.text{
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+}
+.text2{
+    text-align: center;
+}
+.all{
+    padding: 100px;
+}
+.two{
+    background-color: antiquewhite;
+}
+.head{
+    font-size: 40px;
+}
+.space{
+    padding-top: 20px;
+}

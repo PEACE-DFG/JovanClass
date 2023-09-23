@@ -1,0 +1,47 @@
+.one{
+    border: 1px solid black;
+    max-width: 400px;
+    margin: auto;
+    /* outline-width: 5px ;
+    outline-style: groove;
+    outline-color: yellow; */
+    outline: 10px groove gold;
+}
+.head{
+    text-align: center;
+}
+.user{
+    margin-left: 10px;
+}
+.text{
+    font-size: 50px;
+    font-weight: 900;
+    /* font-family: cursive; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* text-align: end; */
+    /* text-align: left; */
+    text-indent: 60px;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: none; */
+
+    /* 3 values:
+     text-shadow:horizontal vertical  color
+    */
+    /* text-shadow: 5px 5px red; */
+
+    /* 
+    4 values:
+     text-shadow:horizontal vertical blurness color
+    */
+    text-shadow: 10px 10px 30px red;
+
+
+
+}
+.lorem{
+    line-height: 2.0;
+}

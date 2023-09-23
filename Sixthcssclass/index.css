@@ -1,0 +1,47 @@
+img:hover{
+    opacity: 0.4;
+}
+/* Descendeant Combinators (space)*/
+/* div code{
+    background-color: yellow;
+} */
+/* Child Selector */
+/* div > p{
+    background-color: red;
+} */
+
+/* Adjacent Sibling Selector */
+/* div + code{
+    background-color: blue;
+} */
+/* General Sibling Selectors */
+div ~ p{
+    background-color: gold;
+}
+.shadow{
+    border: 1px solid black;
+    width: fit-content;
+    /* text-align: center; */
+    margin: auto;
+    padding: 20px;
+    /* text-shadow: horizontal Vertical color */
+    /* text-shadow: horizontal Vertical blurness color */
+    text-shadow:5px 5px 4px red, 1px 1px 5px yellow ;
+    font-size: 30px;
+    box-shadow: 10px 10px 15px blue,10px 10px 4px aqua;
+}
+body{
+    /* background-image: linear-gradient(to right,red,blue,yellow,aqua,green); */
+    /* background-image: radial-gradient(circle,red 20%,green 10%,yellow 70%); */
+    /* background-image: conic-gradient(red,yellow,blue); */
+    background-image: repeating-conic-gradient(rgb(0,0,0,0.6) 10%,yellow 20%);
+}
+ul{
+    float: left;
+    width: 30.33%;
+}
+li{
+    float: left;
+    list-style-type: none;
+    margin: 0px 20px;
+}

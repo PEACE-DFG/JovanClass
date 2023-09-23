@@ -1,0 +1,84 @@
+/* body{
+    background-color: red;
+} */
+.one{
+    /* background-color: red; */
+    /* background-color: rgb(21, 162, 170); */
+    background-color: hsl(0, 35%, 100%);
+
+}
+.J{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 40px;
+}
+/* table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; */
+    /* background-color: aqua; */
+/* } */
+/* th{ */
+    /* 
+    border:first value= width      second value= style     third= color
+    */
+    /* border:1px solid black ;
+    padding: 20px;
+} */
+/* td{
+    border:1px solid black ;
+    padding: 10px;
+
+} */
+/* th:nth-child(even){
+    background-color: red;
+}
+th:nth-child(odd){
+    background-color: blue;
+}
+td:nth-child(even){
+    background-color: yellow;
+}
+td:nth-child(odd){
+    background-color: grey;
+} */
+/* tr:nth-child(even){
+    background-color: aquamarine;
+}
+tr:nth-child(odd){
+    background-color: black;
+    color: white;
+} */
+
+/* 
+second table css
+*/
+/* table{
+    width: 100%;
+    border: 1px groove black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+} */
+
+/* 
+third tyable css
+*/
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+
+}

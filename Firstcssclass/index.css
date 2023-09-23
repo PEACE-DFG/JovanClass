@@ -1,0 +1,26 @@
+/* 
+Syntax of external css:
+Selector{
+    DECLARATION=( Properties and value)
+    selecting= tagname,classname and id
+}
+*/
+
+.one{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/12/18/21/croatia-8123037_1280.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.three{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('https://cdn.pixabay.com/photo/2023/06/29/10/33/lion-8096155_1280.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
