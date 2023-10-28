@@ -64,7 +64,8 @@ const person= {
   lastName:"Javascript",
   Nickname:'JJ',
   age:50,
-  eyeColor:'brown'
+  eyeColor:'brown',
+  phone:'iphone'
 
 }
 console.log(person)
