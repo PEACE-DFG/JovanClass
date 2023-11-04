@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <p id="demo"></p>
+
+  <button onclick="checkDate()">Date</button>
+
+  <h1 id="memo">
+
+  </h1>
+
+  <!-- Functions in javascript -->
+
+  <script>
+    // Block of code that performs a particular task 
+    // Js function is executed when you call it
+
+    /*
+    JAVASCRIPT FUNCTION SYNTAX->
+
+    function keyword + functionName + Parenthesis () + curly brace
+
+    function Jovan(parameter1, parameter2){
+      
+    }
+
+    Jovan(argument1, argument2)
+
+    */
+
+    // 
+
+    function sum(a,b){
+      return a+ b
+    }
+    let x = sum(2,4)
+    console.log(x)
+    console.log(x)
+    console.log(x)
+    console.log(x)
+
+     /*
+
+     Function Invocation 
+     1. An event occurs 
+     2. You can call it from the Javascript
+     3. Authomatic invocation [self invoked]
+
+     */
+
+     function checkDate(){
+      document.getElementById('demo').innerHTML= new Date()
+     }
+
+     //Local Variables -> are variables that can be used within the function 
+     // Global variables -> you can use it outside of the function
+
+     
+     let y=3;
+
+     function myFunction(){
+      //local variables
+      let y=3;
+      console.log(y)
+     };
+     myFunction()
+     //console.log(y)
+
+
+     //JS FUNCTION EXPRESSION -> A function expression can be stored in a variable
+
+     const m= function (q,r){return q*r}
+
+
+
+     let z= m(5,7)
+     console.log(z)
+
+     //The above function is called anonymous function without a name
+
+     // Function Constructor
+
+     const multiplication = new Function ("e", "f" , "return e*f")
+
+     console.log(multiplication(4,6))
+
+     // Function Hoisting -> means callinig function before you declare it
+
+     console.log(myNumber(5))
+
+     function myNumber(r){
+      return r*r;
+     }
+
+
+     // Self invoking functions -> automatical invoking without beign called
+
+     (
+      function (){
+        document.getElementById('memo').innerHTML="Hello I called myself"
+      }
+     ) ();
+
+
+     //Arrow function -> short syntax for writing functional expressions
+
+     var l = function (d,s){
+      return d*s;
+     }
+     console.log(l(3,5));
+
+
+     const k = (d,s) => d*s;
+     console.log(k(3,5));
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
