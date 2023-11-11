@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <input type="text" placeholder="0" id="output">
+  
+  <button type="button" onclick="document.getElementById('output').value += '1'">1</button>
+  <button type="button" onclick="document.getElementById('output').value += '2'">2</button>
+  <button type="button" onclick="document.getElementById('output').value += '+'">+</button>
+  <button type="button" onclick="document.getElementById('output').value = eval(document.getElementById('output').value)">=</button>
+  <button type="button" onclick="deleteall()">Clear</button>
+
+
+  <script>
+    function deleteall() {
+      document.getElementById('output').value = '';
+    }
+
+    // CONDITIONAL STATEMENTS
+    // conditional statements are used to perform differenet actions basedd on differnet conditions
+
+    /*
+    1. If - to specify block codes to be executed if a specified condition is true
+
+    SYNTAX     ----=> 
+
+    if(condition){
+      // condition to be executed
+    }
+
+    2. else -> to specify block codes to be executed if a specified condition is false
+
+    Syntax  =====>
+    else{
+
+    }
+
+    3. else if -> it is used to specify a new condition if the  first condition is false 
+
+    SYNTAX -> 
+
+    if(condition 1){
+      // code to be executed if condition 1 is true
+    }
+    else if(condition 2){
+      // code to be executed if condition 2 is true
+    }
+    else{
+      // code to be executed if none of the above conditions is true
+    }
+
+    4. SWITCH STATEMENT= it is used to perform different actions based on different conditions
+
+    SYNTAX->
+
+    switch(expression){
+      case x:
+      //block of code
+      break;
+      case y:
+      //block of code
+      break;
+      default
+    }
+
+    EXPLANATION ON HOW IT WORKS
+   1. the switch statement is evaluated just once
+    2.  the values of the expression is compared with the values of the cases
+    3. if there is match , the associated block will be executed
+    4. if there is no match the default block will be executed
+    */
+
+    if(true==false){
+      console.log('true and false are the same')
+    }else{
+      console.log('true and false are different')
+    }
+
+    let x= 2;
+
+    if(x<15){
+      console.log('x is less than 15')
+    }
+    else if(x>15 && x<25){
+      console.log('x ranges between 15 and 25')
+    }
+    else{
+      console.log('x is greater than 25')
+    }
+
+   // let day= new Date().getDay()
+    //console.log(day)
+
+    switch(new Date().getDay()){
+      case 0: 
+      day = 'Sunday';
+      break;
+      case 1: 
+      day = 'Monday';
+      break;
+      case 2: 
+      day = 'Tuesday';
+      break;
+      case 3: 
+      day = 'Wednesday';
+      break;
+      case 4: 
+      day = 'Thursday';
+      break;
+      case 5: 
+      day = 'Friday';
+      break;
+      case 6: 
+      day = 'Saturday';
+    }
+ console.log(day);
+    
+  </script>
+</body>
+</html>
